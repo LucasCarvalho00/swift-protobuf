@@ -13,6 +13,9 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftProtobuf",
+    platforms: [
+        .iOS(.v12)
+    ],
     products: [
         .executable(
             name: "protoc-gen-swift",
